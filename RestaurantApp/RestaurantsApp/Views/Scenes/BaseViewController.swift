@@ -9,6 +9,7 @@ import UIKit
 
 public class BaseViewController: UIViewController{
     
+    public init(){}
     let button  = Button.sharedInstance.getButton()
     override func viewDidLoad() {
         super.viewDidLoad()
